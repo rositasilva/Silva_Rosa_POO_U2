@@ -1,4 +1,4 @@
-# Proyecto Audiovisual – Unidad 2  
+ 
 ### Universidad Politécnica Salesiana  
 **Materia:** Programación Orientada a Objetos  
 **Estudiante:** Rosa Silva  
@@ -19,18 +19,18 @@ Además, se integró la gestión de versiones mediante **Git y GitHub** para doc
 
 El objetivo principal es aplicar y demostrar un entendimiento sólido de los **cuatro pilares de la POO**:
 
-### 🔹 Abstracción  
+### Abstracción  
 Se define una clase base abstracta `ContenidoAudiovisual` que contiene los atributos y métodos comunes para todos los tipos de medios (ID, título, duración y género).  
 Esta clase sirve como modelo general del que heredan los demás tipos de contenido.
 
-### 🔹 Herencia  
+### Herencia  
 Las clases `Pelicula`, `SerieDeTV`, `Documental`, `Cortometraje` y `VideoYouTube` heredan de `ContenidoAudiovisual`.  
 Cada una extiende la funcionalidad con sus propios atributos y métodos específicos.
 
-### 🔹 Polimorfismo  
+### Polimorfismo  
 Se usa la sobrescritura de métodos (por ejemplo, `mostrarDetalles()`), para que cada clase muestre su información de forma personalizada, aunque se invoque el mismo método.
 
-### 🔹 Encapsulamiento  
+### Encapsulamiento  
 Todos los atributos están declarados como `private`, y el acceso se controla mediante métodos `get` y `set`, garantizando la protección e integridad de los datos.
 
 ---
@@ -71,11 +71,11 @@ El proyecto está organizado en **paquetes** para mantener una estructura limpia
 
 ## Instrucciones para Clonar o Descargar y Ejecutar
 
-### 🔧 **Requisitos previos**
+### **Requisitos previos**
 - Tener instalado el **JDK (Java Development Kit)** versión 17 o superior.  
 - Tener instalado un IDE como **Eclipse** o **IntelliJ IDEA**.  
 
-### 🔹 Opción 1: Clonar el repositorio desde GitHub
+### Opción 1: Clonar el repositorio desde GitHub
 Abre tu terminal o Git Bash y escribe:
 
 ```bash
